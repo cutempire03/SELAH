@@ -6,10 +6,10 @@
 
 @layer base {
   :root {
-    --background: 40 20% 98%;
-    --foreground: 222 47% 11%;
+    --background: 222 47% 6%;
+    --foreground: 45 80% 70%;
 
-    --card: 40 20% 98%;
+    --card: 222 47% 25%;
     --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
@@ -65,6 +65,7 @@
     font-family: 'Instrument Serif', serif;
     letter-spacing: -0.02em;
     text-wrap: balance;
+    
   }
 
   p {
