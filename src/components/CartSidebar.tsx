@@ -81,7 +81,7 @@ const CartSidebar = () => {
                                   item.quantity - 1
                                 )
                               }
-                              className="w-7 h-7 flex items-center justify-center bg-secondary rounded text-foreground/70 hover:text-foreground transition-colors"
+                              className="w-7 h-7 flex items-center justify-center bg-[hsl(var(--background-dark))] rounded text-foreground/70 hover:text-foreground transition-colors"
                             >
                               <Minus size={14} />
                             </button>
@@ -96,7 +96,7 @@ const CartSidebar = () => {
                                   item.quantity + 1
                                 )
                               }
-                              className="w-7 h-7 flex items-center justify-center bg-secondary rounded text-foreground/70 hover:text-foreground transition-colors"
+                              className="w-7 h-7 flex items-center justify-center bg-[hsl(var(--background-dark))] rounded text-foreground/70 hover:text-foreground transition-colors"
                             >
                               <Plus size={14} />
                             </button>

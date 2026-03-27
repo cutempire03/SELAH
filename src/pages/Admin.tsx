@@ -115,7 +115,7 @@ const Admin = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             onSubmit={handleSubmit}
-            className="mb-12 p-6 bg[#0a192f] rounded-lg space-y-4"
+            className="mb-12 p-6 bg-[hsl(var(--background-dark))] rounded-lg space-y-4"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>

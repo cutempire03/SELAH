@@ -34,7 +34,7 @@ const Collection = () => {
             placeholder="Buscar peças..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full max-w-md px-5 py-3 mb-8 bg-secondary border border-border rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-primary"
+            className="w-full max-w-md px-5 py-3 mb-8 bg-secondary border border-gray text-black rounded-md text-sm focus:outline-none focus:ring-1 focus:ring-primary"
           />
         </motion.div>
 
